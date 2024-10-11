@@ -10084,10 +10084,10 @@ body.psi-light-bg-on:not(.tt-ol-menu-open) #ball .ball-drag::after {
 /* Make header elements dark
 ============================= */
 /* Make header logo dark */
-body.tt-light-bg-on:not(.tt-ol-menu-active):not(.tt-m-menu-active) #tt-header .tt-logo-light {
+body.tt-light-bg-on:not(.tt-ol-menu-active):not(.tt-m-menu-active) #tt-header .tt-logo-wht {
 	display: none;
 }
-body.tt-light-bg-on:not(.tt-ol-menu-active):not(.tt-m-menu-active) #tt-header .tt-logo-dark {
+body.tt-light-bg-on:not(.tt-ol-menu-active):not(.tt-m-menu-active) #tt-header .tt-logo-blk {
 	display: block;
 }
 

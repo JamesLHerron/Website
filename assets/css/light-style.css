@@ -541,10 +541,10 @@ body.pi-full-on:not(.page-header-on) .portfolio-interactive-ghost {
 	}
 
 	/* If reversed layout is enabled */
-	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-dark {
+	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-blk {
 		display: none;
 	}
-	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-light {
+	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-wht {
 		display: block;
 	}
 
@@ -575,10 +575,10 @@ body.pi-full-on:not(.page-header-on) .portfolio-interactive-ghost {
 		background-color: #FFF;
 	}
 
-	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-dark {
+	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-blk {
 		display: none;
 	}
-	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-light {
+	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-wht {
 		display: block;
 	}
 
