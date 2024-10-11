@@ -4923,10 +4923,10 @@ body.pspl-reverse-on .pspl-ghost {
 	}
 
 	/* If reversed layout is enabled */
-	body.pspl-light-image-on.pspl-reverse-on:not(.tt-ol-menu-active) #tt-header .tt-logo-light {
+	body.pspl-light-image-on.pspl-reverse-on:not(.tt-ol-menu-active) #tt-header .tt-logo-wht {
 		display: none;
 	}
-	body.pspl-light-image-on.pspl-reverse-on:not(.tt-ol-menu-active) #tt-header .tt-logo-dark {
+	body.pspl-light-image-on.pspl-reverse-on:not(.tt-ol-menu-active) #tt-header .tt-logo-blk {
 		display: block;
 	}
 	body.pspl-light-image-on.pspl-reverse-on #tt-footer .tt-btn-link > *, 
