@@ -115,10 +115,10 @@ body:not(.tt-portfolio-slider-on):not(.tt-portfolio-hover-carousel-on) #ball .ba
  * Header
 /* ------------------------------------------------------------- */
 
-#tt-header .tt-logo-light {
+#tt-header .tt-logo-wht {
 	display: none;
 }
-#tt-header .tt-logo-dark {
+#tt-header .tt-logo-blk {
 	display: block;
 }
 #tt-header,
@@ -138,16 +138,16 @@ body:not(.is-mobile):not(.tt-ol-menu-open) .tt-m-menu-toggle-btn:hover span {
 
 /* tt-Header light
 =================== */
-body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-light,
-body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-light,
-body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-light,
-body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-light {
+body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht,
+body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht,
+body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht,
+body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht {
 	display: block;
 }
-body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-dark,
-body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-dark,
-body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-dark,
-body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-dark {
+body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk,
+body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk,
+body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk,
+body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk {
 	display: none;
 }
 
@@ -257,10 +257,10 @@ body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.is-mobile):not
 		color: var(--tt-main-color);
 	}
 
-	body.tt-m-menu-active #tt-header .tt-logo-dark {
+	body.tt-m-menu-active #tt-header .tt-logo-blk {
 		display: block !important;
 	}
-	body.tt-m-menu-active #tt-header .tt-logo-light {
+	body.tt-m-menu-active #tt-header .tt-logo-wht {
 		display: none !important;
 	}
 	body.tt-m-menu-active .tt-m-menu-toggle-btn-text {
