@@ -118,7 +118,7 @@ body:not(.tt-portfolio-slider-on):not(.tt-portfolio-hover-carousel-on) #ball .ba
 #tt-header .tt-logo-wht {
 	display: none;
 }
-#tt-header .tt-logo-blk {
+#tt-header .tt-logo-blk-dark {
 	display: block;
 }
 #tt-header,
@@ -144,10 +144,10 @@ body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active)
 body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht {
 	display: block;
 }
-body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk,
-body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk,
-body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk,
-body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk {
+body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark,
+body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark,
+body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark,
+body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark {
 	display: none;
 }
 
@@ -257,7 +257,7 @@ body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.is-mobile):not
 		color: var(--tt-main-color);
 	}
 
-	body.tt-m-menu-active #tt-header .tt-logo-blk {
+	body.tt-m-menu-active #tt-header .tt-logo-blk-dark {
 		display: block !important;
 	}
 	body.tt-m-menu-active #tt-header .tt-logo-wht {
@@ -541,7 +541,7 @@ body.pi-full-on:not(.page-header-on) .portfolio-interactive-ghost {
 	}
 
 	/* If reversed layout is enabled */
-	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-blk {
+	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-blk-dark {
 		display: none;
 	}
 	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-wht {
@@ -575,7 +575,7 @@ body.pi-full-on:not(.page-header-on) .portfolio-interactive-ghost {
 		background-color: #FFF;
 	}
 
-	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-blk {
+	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark {
 		display: none;
 	}
 	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-wht {
