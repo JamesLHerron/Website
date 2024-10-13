@@ -2927,21 +2927,23 @@
 	// ========================================
 
 	// E-mail Ajax Send
-	$("#tt-contact-form").submit(function() { 
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php", // mail.php path
-			data: th.serialize()
-		}).done(function() {
-			alert("Thank you. Your message has been sent!");
-			setTimeout(function() {
-			// Done Functions
-			th.trigger("reset");
-			}, 800);
-		});
-		return false;
-	});
+$("#tt-contact-form").submit(function() {
+var th = $(this);
+$.ajax({
+type: "POST",
+url: "mail.php", // mail.php path
+data: th.serialize()
+}).done(function() {
+alert("Thank you. Your message has been sent!");
+// Redirect to Modern CRM link
+window.location.href = "https://link.moderncrm.org/widget/form/JCFNgRfjBHYD0lGrl4pr"; // Update this URL if needed
+setTimeout(function() {
+// Done Functions
+th.trigger("reset");
+}, 800);
+});
+return false;
+});
 
 
 
