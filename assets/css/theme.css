@@ -883,7 +883,7 @@ body:not(.tt-boxed) .tt-header-inner,
 	max-height: 48px; /* You may need to change the img height to match your logo type! */
 }
 
-.tt-logo-dark-dark{
+.tt-logo-dark{
 	display: none;
 }
 
@@ -8116,6 +8116,7 @@ input[type=range] {
 .tt-signature {
 }
 .tt-signature-light {
+	display:block;
 }
 .tt-signature-dark {
 	display: none;

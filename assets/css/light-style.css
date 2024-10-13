@@ -115,10 +115,10 @@ body:not(.tt-portfolio-slider-on):not(.tt-portfolio-hover-carousel-on) #ball .ba
  * Header
 /* ------------------------------------------------------------- */
 
-#tt-header .tt-logo-wht {
+#tt-header .tt-logo-light {
 	display: none;
 }
-#tt-header .tt-logo-blk-dark {
+#tt-header .tt-logo-dark {
 	display: block;
 }
 #tt-header,
@@ -138,16 +138,16 @@ body:not(.is-mobile):not(.tt-ol-menu-open) .tt-m-menu-toggle-btn:hover span {
 
 /* tt-Header light
 =================== */
-body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht,
-body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht,
-body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht,
-body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-wht {
+body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-light,
+body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-light,
+body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-light,
+body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-light {
 	display: block;
 }
-body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark,
-body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark,
-body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark,
-body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark {
+body.tt-ph-visible.ph-bg-image-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-dark,
+body.tt-portfolio-slider-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-dark,
+body.tt-portfolio-hover-carousel-on:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-dark,
+body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.tt-ol-menu-active) #tt-header .tt-logo-dark {
 	display: none;
 }
 
@@ -257,10 +257,10 @@ body.tt-np-image-on.tt-next-project-top:not(.tt-light-bg-on):not(.is-mobile):not
 		color: var(--tt-main-color);
 	}
 
-	body.tt-m-menu-active #tt-header .tt-logo-blk-dark {
+	body.tt-m-menu-active #tt-header .tt-logo-dark {
 		display: block !important;
 	}
-	body.tt-m-menu-active #tt-header .tt-logo-wht {
+	body.tt-m-menu-active #tt-header .tt-logo-light {
 		display: none !important;
 	}
 	body.tt-m-menu-active .tt-m-menu-toggle-btn-text {
@@ -541,10 +541,10 @@ body.pi-full-on:not(.page-header-on) .portfolio-interactive-ghost {
 	}
 
 	/* If reversed layout is enabled */
-	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-blk-dark {
+	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-dark {
 		display: none;
 	}
-	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-wht {
+	body.portfolio-split-on:not(.pspl-light-image-on):not(.tt-ol-menu-active).pspl-reverse-on #tt-header .tt-logo-light {
 		display: block;
 	}
 
@@ -575,10 +575,10 @@ body.pi-full-on:not(.page-header-on) .portfolio-interactive-ghost {
 		background-color: #FFF;
 	}
 
-	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-blk-dark {
+	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-dark {
 		display: none;
 	}
-	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-wht {
+	body.portfolio-split-on:not(.tt-ol-menu-active) #tt-header .tt-logo-light {
 		display: block;
 	}
 
@@ -811,6 +811,8 @@ body.pi-full-on:not(.page-header-on) .portfolio-interactive-ghost {
  * tt-Signature
 /* -------------------------------------------------------------------- */
 
+.tt-signature {
+}
 .tt-signature-light {
 	display: none;
 }
