@@ -8159,6 +8159,11 @@ input[type=range] {
 }
 
 
+.chat-widget-container {
+    padding-bottom: 20px; /* Adjust the value as needed */
+}
+
+
 /* -------------------------------------------------------------------- *
  * Background video
  * Note: position "relative" or "absolute" required on parent element!
@@ -10049,17 +10054,6 @@ body:not(.tt-boxed) .tt-footer-inner,
 		height: auto;
 	}
 
-	/* Footer social */
-	#tt-footer .footer-social {
-		margin-bottom: 10px;
-	}
-	#tt-footer .footer-social .footer-social-text {
-		display: none;
-	}
-	#tt-footer .social-buttons > ul > li a {
-		width: 34px;
-		height: 34px;
-	}
 }
 
 
